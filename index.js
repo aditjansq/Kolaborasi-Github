@@ -1,1 +1,1 @@
-
+require("./bin/www");
