@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <!-- Page Content-->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <%- include('./partials/header'); %>
+
+        <!-- Content -->
+            <section id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 col-12-medium">
+
+                            <!-- Left Sidebar -->
+                                
+                                <!-- iklan -->
+                                <%- include('./partials/iklan'); %>
+                        </div>
+                        <div class="col-6 col-12-medium imp-medium">
+
+                            <!-- Main Content -->
+                                <section>
+                                    <header>
+                                        <h2 class="logo-text">
+                                            <img class="logo-tg-tentang" src="images/logo-tg.png" alt="">
+                                            The Great Marching Band UMDP
+                                        </h2>
+                                        <h3>The Great, YES..</h3>
+                                    </header>
+                                    <p>
+                                        The Great Marching Band Universitas Multi Data Palembang adalah unit kegiatan mahasiswa berbasis seni musik yang berdiri pada tahun 2007. Kami berkomitmen mengembangkan bakat dan kreativitas mahasiswa dalam bidang musik dan seni pertunjukan marching band melalui berbagai prestasi di tingkat regional maupun nasional.
+                                    </p>
+                                    <p>
+                                        Dibentuk pada tahun 13 Maret 2007. Walaupun terbilang masih cukup muda usianya, banyak prestasi-prestasi yang telah diraih The Great Marching Band MDP baik regional maupun nasional, antara lain juara 2 Pusri Open Marching Band 2008 [Palembang], Finalis Darunnajah Marching Band Competition 2009 [Jakarta].
+                                    </p>
+                                    <p>
+                                        Tempat : Kampus MDP Jl. Rajawali No. 14 Palembang <br> <br>
+                                        Pendiri : Bapak Rusbandi, Bapak Gasim, Bapak Wijang, dan Bapak Rizani Teguh 
+                                        Dibantu Oleh Kak Adi Wijaya, Kak Mukti, Kak Dino, Kak Teddy, dan Kak Niko sebagai Pelatih <br> <br>
+                                        Jadwal Latihan : Hari Selasa : Jam 15:00-17.00 WIB
+                                        Hari Kamis : Jam 15.00-17.00 WIB
+                                        Hari Minggu : Jam 13.00-17.00 WIB
+                                        
+                                        
+
+                                    </p>
+                                </section>
+
+                        </div>
+                        <div class="col-3 col-12-medium">
+
+                            <!-- Right Sidebar -->
+                             <!-- pengumuman -->
+                             <%- include('./partials/pengumuman') %>
+                                
+                            <!-- just info -->
+                             <%- include('./partials/justinfo') %>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Footer -->
+        <%- include('./partials/footer'); %>
+
+        <!-- Copyright -->
+            <div id="copyright">
+                &copy; Untitled. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+            </div>
+
+    </div>
+</body>
+</html>
